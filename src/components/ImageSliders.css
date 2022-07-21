@@ -1,0 +1,66 @@
+.slideStyles{
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+.rightArrowStyles {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 32px;
+    font-size: 70px;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+}
+  
+.leftArrowStyles {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 32px;
+    font-size: 70px;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+}
+  
+.sliderStyles {
+    position: relative;
+    height: 100%;
+    z-index: 0;
+    margin-top: -30px;
+}
+
+.dotsContainerStyles {
+    display: flex;
+    justify-content: center;
+    top: 75%;
+    position: relative;
+}
+  
+.dotStyle {
+    margin: 0 3px;
+    cursor: pointer;
+    font-size: 50px;
+    color: white;
+}
+.paragraph {
+    background: #242526;
+    opacity: 0.5;
+    width: 800px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white ;
+    position: relative;
+    top: 70%;
+    left: 20%;
+}
+.paragraph p{
+    padding: 20px;
+}

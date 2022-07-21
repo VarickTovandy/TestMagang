@@ -1,0 +1,39 @@
+.footer{
+    color: white;
+    margin-top: 80px;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #242526;
+}
+.footer p {
+    text-align: center;
+}
+.socialmedia{
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.socialmedia ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.socialmedia ul li {
+    display: inline-block;
+    margin: auto;
+}
+.socialmedia ul li a {
+    color: gray;
+    display: block;
+    text-decoration: none;
+    padding: 0 15px;
+    justify-content: center;
+} 
+.socialmedia img {
+    height: 50px;
+    width: 50px;
+}
